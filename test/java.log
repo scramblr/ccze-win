@@ -1,0 +1,11 @@
+Feb 18, 2026 6:21:11 PM com.example.server.HttpHandler handleRequest
+INFO: Request received GET /api/users 200
+
+Feb 18, 2026 6:21:12 PM com.example.db.ConnectionPool getConnection
+ERROR: Connection failed to 192.168.1.100
+
+Feb 18, 2026 6:21:13 PM com.example.auth.TokenValidator validate
+INFO: Token valid for user abc12345-0000-0000-0000-000000000001
+
+Feb 18, 2026 6:21:14 PM com.example.server.HttpHandler handleRequest
+WARNING: Slow response 503
