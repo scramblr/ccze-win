@@ -1,4 +1,4 @@
-# ccze-win v1.1 by scramblr
+# ccze-win v1.1 by scramblr ©2026
 
 A Windows log colorizer inspired by [ccze](https://github.com/cornet/ccze). Reads log data from stdin or a file, applies regex-based color rules, and outputs colorized text to the terminal or as HTML.
 
