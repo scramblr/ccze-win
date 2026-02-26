@@ -1,4 +1,4 @@
-# ccze-win
+# ccze-win v1.1 by scramblr
 
 A Windows log colorizer inspired by [ccze](https://github.com/cornet/ccze). Reads log data from stdin or a file, applies regex-based color rules, and outputs colorized text to the terminal or as HTML.
 
@@ -21,7 +21,7 @@ ccze.exe [OPTIONS] [FILE]
 
 Pipe a log file:
 ```cmd
-type myapp.log | ccze
+type (or cat, w/e) myapp.log | ccze
 ```
 
 Read from a file:
@@ -82,6 +82,36 @@ build.bat
 ```
 
 Produces a single `ccze.exe` with PCRE2 statically linked.
+
+## Windows Supported Files
+   1. CBS.log (Servicing)
+   2. dism.log (Deployment)
+   3. setupapi.dev.log (Driver installation - uses >>> and <<<)
+   4. setupapi.setup.log (App/OS setup)
+   5. WindowsUpdate.log (Update traces)
+   6. pfirewall.log (Windows Firewall traffic)
+   7. SrtTrail.txt (Startup Repair results)
+   8. PFRO.log (Pending File Rename Operations)
+   9. setuperr.log (OS Installation errors)
+   10. setupact.log (OS Installation actions)
+   11. MSI*.log (Windows Installer logs)
+   12. DirectX.log (DirectX setup)
+   13. DPX.log (Data Package Expander)
+   14. ReportingEvents.log (Update reporting)
+   15. WinSetup.log (Modern Setup logs)
+   16. MoSetup.log (Media Creation Tool / Upgrade)
+   17. Diagerr/Diagwrn (System Diagnostics)
+   18. VSS logs (Volume Shadow Copy)
+   19. WlanMgr.log (Wireless networking)
+   20. Shell.log (Explorer/Shell events)
+
+If you want something added, file an issue at https://github.com/scramblr/ccze-win
+
+## Linux Supported Files
+  All the same ones as it always has supported: syslog, nginx, apache logs, etc. 
+
+Again, If you want something added, file an issue at https://github.com/scramblr/ccze-win
+
 
 ## License
 
