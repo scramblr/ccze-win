@@ -1,6 +1,24 @@
-# ccze-win v1.1 by scramblr ©2026
+# ccze-win v1.2 by scramblr ©2026
 
 A Windows log colorizer inspired by [ccze](https://github.com/cornet/ccze). Reads log data from stdin or a file, applies regex-based color rules, and outputs colorized text to the terminal or as HTML.
+
+<h6><i>
+   
+NOTE: The ccze.conf configuration can be used on both linux and windows versions of ccze, so if you want you can type the following on your linux box:
+```
+sudo wget https://raw.githubusercontent.com/scramblr/ccze-win/refs/heads/master/ccze.conf -o /etc/cczerc.new
+sudo cp /etc/cczerc /etc/cczerc.orig
+sudo mv /etc/cczerc.new /etc/cczerc
+```
+Now you should be able to enjoy slightly different/newer coloring on all files win and not on your *nix boxes! u decide if it's better!
+
+```cat /var/log/syslog|ccze```
+or
+```cat /var/log/syslog|ccze -A```
+(sometimes without running ANSI mode the screen tends to clear for some reason)
+</h4> </i>
+
+
 
 ## Features
 
