@@ -73,13 +73,6 @@ ccze -h myapp.log > output.html
 Rules are loaded from `ccze.conf` (next to `ccze.exe`, or specified with `-F`).
 
 ```
-# Lines starting with # are comments
-
-# Color rules: color  COLOR_NAME  PCRE2_REGEX
-color  BRIGHT_RED     \bERROR\b
-color  GREEN          \bINFO\b
-color  YELLOW         \bWARN(ING)?\b
-
 # Tool rules: pipe matched text through a command
 tool   jq .    \{[\s\S]*?\}
 ```
@@ -99,7 +92,7 @@ vcpkg install pcre2:x64-windows-static
 build.bat
 ```
 
-Produces a single `ccze.exe` with PCRE2 statically linked.
+Build.bat will produce a single `ccze.exe` binary with PCRE2 statically linked. You just need the .conf file and the .exe file in your %PATH% to run and that's all! Oh and of course never forget the LICENSE and README!! That would be ILLEGAL! lmao. 
 
 ## Windows Supported Files
    1. CBS.log (Servicing)
@@ -123,13 +116,15 @@ Produces a single `ccze.exe` with PCRE2 statically linked.
    19. WlanMgr.log (Wireless networking)
    20. Shell.log (Explorer/Shell events)
 
+## Linux Supported Files:
+All of the same files it previously supported - like:
+rsyslog files, nginx, apache, bind, dmesg, etc.
+
+## Agnostic Supported Files:
+PHP, JavaScript, ASP, etc. (mostly the same as before)
+
+## Have a request?
 If you want something added, file an issue at https://github.com/scramblr/ccze-win
-
-## Linux Supported Files
-  All the same ones as it always has supported: syslog, nginx, apache logs, etc. 
-
-Again, If you want something added, file an issue at https://github.com/scramblr/ccze-win
-
 
 ## License
 
