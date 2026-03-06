@@ -6,7 +6,7 @@ A Windows log colorizer inspired by [ccze](https://github.com/cornet/ccze). Read
    
 NOTE: The ccze.conf configuration can be used on both linux and windows versions of ccze, so if you want you can type the following on your linux box:
 ```
-sudo wget https://raw.githubusercontent.com/scramblr/ccze-win/refs/heads/master/ccze.conf -o /etc/cczerc.new
+sudo curl https://raw.githubusercontent.com/scramblr/ccze-win/refs/heads/master/ccze.conf -o /etc/cczerc.new
 sudo cp /etc/cczerc /etc/cczerc.orig
 sudo mv /etc/cczerc.new /etc/cczerc
 ```
