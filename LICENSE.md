@@ -3,7 +3,7 @@
 **PolyForm Noncommercial License 1.0.0**
 https://polyformproject.org/licenses/noncommercial/1.0.0
 
-Copyright © [Year] PACKET.TEL LLC. All rights reserved.
+Copyright © 2026 PACKET.TEL LLC. All rights reserved.
 
 This software is licensed under the PolyForm Noncommercial License 1.0.0.
 
@@ -12,7 +12,7 @@ Individuals and non-commercial entities (as defined in the license) may use, mod
 
 **Commercial/corporate use requires payment.**
 Any for-profit use, corporate deployment, or use primarily for commercial advantage/monetary compensation is prohibited under this license.
-To obtain a commercial license, contact PACKET.TEL LLC at [your-email@packet.tel] or [website] to negotiate terms and pay the required fee.
+To obtain a commercial license, contact PACKET.TEL LLC at commercial-license@packet.tel or https://packet.tel/licensing to negotiate terms and pay the required fee.
 
 Full license text follows:
 
